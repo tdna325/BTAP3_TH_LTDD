@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">The Coffee House</string>
+    <string name="noidung">Tạo khác biệt từ chất nguyên bản thước phim "Khác biệt" dưới đây là món quà được lấy cảm hứng từ chất nguyên bản của bạn - như lời cảm ơn đặc biệt Nhà dành cho bạn - Một bản nguyên khác biệt của Nhà.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

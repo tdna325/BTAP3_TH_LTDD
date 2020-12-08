@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    app:cardCornerRadius="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <ImageView
+                android:id="@+id/image_ctsp_355"
+                android:src="@drawable/cplm"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/name_ctsp_355"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"
+                    android:text="Cà phê lúa Mạch đá"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/gia_ctsp_355"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"
+                    android:text="69.000 đ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:fontFamily="sans-serif-light"
+                    android:drawableLeft="@drawable/ic_icons8_heart"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="12sp"
+                    android:textColor="#000"
+                    android:text=" Yêu thích"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <LinearLayout
+                android:background="#efeff4"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000"
+                    android:padding="5dp"
+                    android:text="Size"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"/>
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/size_355"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/size_vua_355"
+                    android:buttonTint="@color/selected_color"
+                    android:checked="true"
+                    android:text="Vừa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <View
+                    android:background="#efeff4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+                <RadioButton
+                    android:id="@+id/size_lon_355"
+                    android:buttonTint="@color/selected_color"
+                    android:text="Lớn + 6.000 đ"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:background="#efeff4"
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textColor="#000"
+                android:padding="5dp"
+                android:text="Giới thiệu món"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:background="#fff"
+            android:paddingLeft="20dp"
+            android:paddingRight="15dp"
+            android:textColor="#000"
+            android:text="Đắm chìm vào hương vị cà phê mới mẻ khi kết hợp cùng lúa mạch thơm ngon. Không quá đắng lại ngọt dịu dễ ghiền. Thưởng thức ngay nhé"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <RelativeLayout
+            android:layout_marginBottom="10dp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/btn_minus_ctsp_355"
+                android:textColor="#fff"
+                android:fontFamily="sans-serif-thin"
+                android:textSize="64sp"
+                android:text="-"
+                android:background="@drawable/bg_button_minus"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+            <TextView
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:layout_toRightOf="@id/btn_minus_ctsp_355"
+                android:id="@+id/soluong_355"
+                android:text="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/soluong_355"
+                android:id="@+id/btn_add_ctsp_355"
+                android:textColor="#fff"
+                android:fontFamily="sans-serif-thin"
+                android:textSize="28sp"
+                android:text="+"
+                android:background="@drawable/button_add"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+            <Button
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#fff"
+                android:textAllCaps="false"
+                android:text="69.000 đ"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/bg_thanhtien"
+                android:id="@+id/thanhtien_355"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

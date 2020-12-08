@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/muasanpham_355"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    app:cardCornerRadius="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:id="@+id/image_product_355"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cplm"
+            android:layout_width="match_parent"
+            android:layout_height="80pt"/>
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:textSize="14sp"
+            android:id="@+id/name_product_355"
+            android:textColor="#000"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/image_product_355"
+            android:text="Cà phê Lúa Mạch đá"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_below="@id/name_product_355"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/price_product_355"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"
+                android:textSize="14sp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000"
+                android:text="69.000đ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btn_add_355"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#ea8025"
+                android:background="@drawable/bg_button_product"
+                android:textAlignment="center"
+                android:text="+"
+                android:textSize="20sp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
